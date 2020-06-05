@@ -1,0 +1,245 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Good morning
+- hi again
+- hi folks
+
+
+## intent:bye
+- goodbye
+- goodnight
+- good bye
+- good night
+- see ya
+- toodle-oo
+- bye bye
+- gotta go
+- farewell
+
+## intent:thank
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+
+## intent: faq/ask_channels
+- What channels of communication does rasa support?
+- what channels do you support?
+- what chat channels does rasa uses
+- channels supported by Rasa
+- which messaging channels does rasa support?
+
+## intent: faq/ask_languages
+- what language does rasa support?
+- which language do you support?
+- which languages supports rasa
+- can I use rasa also for another laguage?
+- languages supported
+
+## intent: faq/ask_rasax
+- I want information about rasa x
+- i want to learn more about Rasa X
+- what is rasa x?
+- Can you tell me about rasa x?
+- Tell me about rasa x
+- tell me what is rasa x
+
+## intent:contact_sales
+- But I wanted a sales call
+- Can I have a call tomorrow at 3pm?
+- Can I have a call?
+- HOW CAN I BOOK A SALES CALL ?
+- How can i contact the team ?
+- I also want to book a sales call
+- I wanna have a subscription for your product
+- I wanna talk to your sales guy
+- I wanna talk to your sales people.
+- I want a sales call
+- I want an offer for your platform
+- I want to book a call
+- I want to book a call with your sales team
+- I want to buy the rasa platform
+- I want to contact sales
+- I want to contact the sales team
+- I want to get in touch with your sales guys
+- I want to learn more about your pricing
+- I want to speak with sales
+- I want to talk to sales
+- I want to talk to someone about your pricing system
+- I want to talk to your sales guys
+- I want to talk to your sales people
+- I want to talk to your sales team
+- I want to talk with sales about our project
+- I would like to book a call
+- I would like to book a sales call
+- I would like to contact your sales team please
+- I would like to have a call with sales team
+- I would like to have a demo scheduled
+- I would like to talk to someone from your sales team
+- i want to buy the enterprise edition
+- i would like rasa enterprise
+- purchase rasa enterprise
+- buy rasa enterprise
+- Ok I want to talk to your sales team immediately
+- Please connect me to someone from sales
+- Please schedule a sales call
+- Sales
+- a call
+- a sales call with [Rufus Gardner](name) would be nice
+- are there different packages customers can book?
+- book
+- book a call
+- book a sale call
+- book a sales
+- book a sales call
+- book an appointment
+- book call
+- book sales call
+- booking a sales call
+- booking a sall
+- booking sales ca;;
+- booking sales call
+- but I want a sales call
+- call
+- call sales
+- call with sales team
+- can i get a ssales call
+- can i speak to the sales team
+- can i talk to a sales representative
+- can i talk to your disagreeable sales man?
+- can someone call me please?
+- can you connect me to sales
+- connect me to your sales department
+- connect to sales
+- connect to the sales team
+- contact
+- contact any sales person
+- contact call with sales
+- contact sales
+- contact sales for me
+- contact to sales
+- get me the sales team
+- give me someone who can explain your business model
+- have a call
+- have a call with the sales team
+- hm ok then i want to talk to the sales dude
+- hmmm sales
+- how does your pricing work?
+- how to book a sales call
+- how to book a sales call>
+- how to book a sales call?
+- i choose the call
+- i choose the call with sales
+- i need a call from sales
+- i need the call request
+- i need to know how i can book support
+- i need to speak to your sales team
+- i need to talk to sales
+- i need your data source
+- i think I want to talk to your sales folks
+- i want one platform please
+- i want a sales call
+- i want someone to call me
+- i want ti booking about booking sales
+- i want to be connected to your sales team
+- i want to be in touch with sales
+- i want to book a appointment
+- i want to book a sales call
+- i want to bookk a sales call
+- i want to buy the rasa platform
+- i want to call
+- i want to chat to sales
+- i want to connect to sales
+- i want to connect to your sales team
+- i want to connect your sales
+- i want to contact sales
+- i want to contact sales now
+- i want to contact sales support
+- i want to contact your sales team
+- i want to have a call with sales
+- i want to talk to sales
+- i would like a call with [Mr Hughes](name)
+- i would like to talk to sales please
+- i'd like to call [Johnnie Essig](name)
+- i'd like to talk to a sales person
+- i'd like to talk to sales
+- id like a call please
+- id like to talk to someone who can explain me what i can do with rasa
+- iwant booking sales
+- just gimme a call
+- let me call the sales team
+- let me contact sales
+- let me have the call
+- let me talk sales
+- let me talk to sales
+- let me talk to your sales guys
+- let me talk to your sales people
+- let me talk to your sales people!
+- let' contact sales now
+- lets talk to sales
+- next the sales contact
+- obviously talk to your awesome sales team
+- ok i want to talk to your sales guys
+- ok sales
+- ok, well, then a sales call with the fabulous [Theodora Estrada](name)
+- please can you book call for me
+- please connect me to sales
+- request a call
+- request call
+- request call with sales team
+- request sales call
+- request sales team
+- sales
+- sales call
+- sales contact
+- sales department
+- sales pl
+- sales please
+- sales sales sales
+- sales team
+- sales team connection
+- sign me up, my email is Elizabeth@yahoo.com
+- talk to sales team
+- we started working with rasa but now we need support
+- Can i have a deno
+- bookin
+
+## intent:inform
+- [100k](budget)
+- [100k](budget)
+- [240k/year](budget)
+- [150,000 USD](budget)
+- I work for [Rasa](company)
+- The name of the company is [ACME](company)
+- company: [Rasa Technologies](company)
+- it's a small company from the US, the name is [Hooli](company)
+- it's a tech company, [Rasa](company)
+- [ACME](company)
+- [Rasa Technologies](company)
+- [maxmeier@firma.de](business_email)
+- [bot-fan@bots.com](business_email)
+- [maxmeier@firma.de](business_email)
+- [bot-fan@bots.com](business_email)
+- [my email is email@rasa.com](business_email)
+- [engineer](job_function)
+- [brand manager](job_function)
+- [marketing](job_function)
+- [sales manager](job_function)
+- [growth manager](job_function)
+- [CTO](job_function)
+- [CEO](job_function)
+- [COO](job_function)
+- [John Doe](person_name)
+- [Jane Doe](person_name)
+- [Max Mustermann](person_name)
+- [Max Meier](person_name)
+- We plan to build a [sales bot](use_case) to increase our sales by 500%.
+- we plan to build a [sales bot](use_case) to increase our revenue by 100%.
+- a [insurance tool](use_case) that consults potential customers on the best life insurance to choose.
+- we're building a [conversational assistant](use_case) for our employees to book meeting rooms.
