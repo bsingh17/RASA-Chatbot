@@ -8,6 +8,18 @@
 - hi again
 - hi folks
 
+## intent: explain
+- why
+- why is that
+- why do you need it
+- why do you need to know that?
+- could you explain why you need it?
+- why should i give you these details?
+- why do you want this?
+- what is need of all these details?
+- why do you require all these information?
+- can you please explain why do you need this information?
+- can you please tell why do you need this?
 
 ## intent:bye
 - goodbye
@@ -57,15 +69,6 @@
 - HOW CAN I BOOK A SALES CALL ?
 - How can i contact the team ?
 - I also want to book a sales call
-- I wanna have a subscription for your product
-- I wanna talk to your sales guy
-- I wanna talk to your sales people.
-- I want a sales call
-- I want an offer for your platform
-- I want to book a call
-- I want to book a call with your sales team
-- I want to buy the rasa platform
-- I want to contact sales
 - I want to contact the sales team
 - I want to get in touch with your sales guys
 - I want to learn more about your pricing
@@ -73,15 +76,6 @@
 - I want to talk to sales
 - I want to talk to someone about your pricing system
 - I want to talk to your sales guys
-- I want to talk to your sales people
-- I want to talk to your sales team
-- I want to talk with sales about our project
-- I would like to book a call
-- I would like to book a sales call
-- I would like to contact your sales team please
-- I would like to have a call with sales team
-- I would like to have a demo scheduled
-- I would like to talk to someone from your sales team
 - i want to buy the enterprise edition
 - i would like rasa enterprise
 - purchase rasa enterprise
@@ -100,134 +94,78 @@
 - book a sales call
 - book an appointment
 - book call
-- book sales call
-- booking a sales call
-- booking a sall
-- booking sales ca;;
-- booking sales call
-- but I want a sales call
-- call
-- call sales
-- call with sales team
-- can i get a ssales call
-- can i speak to the sales team
-- can i talk to a sales representative
-- can i talk to your disagreeable sales man?
-- can someone call me please?
-- can you connect me to sales
-- connect me to your sales department
-- connect to sales
-- connect to the sales team
-- contact
-- contact any sales person
-- contact call with sales
-- contact sales
-- contact sales for me
-- contact to sales
-- get me the sales team
-- give me someone who can explain your business model
-- have a call
-- have a call with the sales team
-- hm ok then i want to talk to the sales dude
-- hmmm sales
-- how does your pricing work?
-- how to book a sales call
-- how to book a sales call>
-- how to book a sales call?
-- i choose the call
-- i choose the call with sales
-- i need a call from sales
-- i need the call request
-- i need to know how i can book support
-- i need to speak to your sales team
-- i need to talk to sales
-- i need your data source
-- i think I want to talk to your sales folks
-- i want one platform please
-- i want a sales call
-- i want someone to call me
-- i want ti booking about booking sales
-- i want to be connected to your sales team
-- i want to be in touch with sales
-- i want to book a appointment
-- i want to book a sales call
-- i want to bookk a sales call
-- i want to buy the rasa platform
-- i want to call
-- i want to chat to sales
-- i want to connect to sales
-- i want to connect to your sales team
-- i want to connect your sales
-- i want to contact sales
-- i want to contact sales now
-- i want to contact sales support
-- i want to contact your sales team
-- i want to have a call with sales
-- i want to talk to sales
-- i would like a call with [Mr Hughes](name)
-- i would like to talk to sales please
-- i'd like to call [Johnnie Essig](name)
-- i'd like to talk to a sales person
-- i'd like to talk to sales
-- id like a call please
-- id like to talk to someone who can explain me what i can do with rasa
-- iwant booking sales
-- just gimme a call
-- let me call the sales team
-- let me contact sales
-- let me have the call
-- let me talk sales
-- let me talk to sales
-- let me talk to your sales guys
-- let me talk to your sales people
-- let me talk to your sales people!
-- let' contact sales now
-- lets talk to sales
-- next the sales contact
-- obviously talk to your awesome sales team
-- ok i want to talk to your sales guys
-- ok sales
-- ok, well, then a sales call with the fabulous [Theodora Estrada](name)
-- please can you book call for me
-- please connect me to sales
-- request a call
-- request call
-- request call with sales team
-- request sales call
-- request sales team
-- sales
-- sales call
-- sales contact
-- sales department
-- sales pl
-- sales please
-- sales sales sales
-- sales team
-- sales team connection
-- sign me up, my email is Elizabeth@yahoo.com
-- talk to sales team
-- we started working with rasa but now we need support
-- Can i have a deno
-- bookin
+
 
 ## intent:inform
 - [100k](budget)
 - [100k](budget)
 - [240k/year](budget)
 - [150,000 USD](budget)
+- [250K/year](budget)
+- [500$/year](budget)
+- [10000K](budget)
+- [10000000000K](budget)
+- [255K/year](budget)
+- [500,000 USD](budget)
+- [450,000 USD](budget)
+- [650,0000 USD](budget)
 - I work for [Rasa](company)
+- I work for [MissionEd](company)
+- I am working in [Decodr Technologies](company)
+- I am working for [TCS](company)
+- I work for [Google](company)
+- I work for [Zomato](company)
+- I work for [Swiggy](company)
+- I am working for [Google](company)
+- I am working for [Zomato](company)
+- I am working for [Swiggy](company)
+- I do work for [Rasa Technologies](company)
+- I do work for [NASA](company)
+- I do work for [ISRO](company)
+- I am working for [Beezenests](company)
+- I work for [Zensar Technologies](company)
 - The name of the company is [ACME](company)
 - company: [Rasa Technologies](company)
 - it's a small company from the US, the name is [Hooli](company)
 - it's a tech company, [Rasa](company)
 - [ACME](company)
 - [Rasa Technologies](company)
+- [king@gmail.com](business_email)
+- My email id is [queen@gmail.com](business_email)
+- Email id is [hello@yahoo.in](business_email)
+- [info@zensartech.com](business_email)
+- [chatbots@gmail.com](business_email)
+- [chatbots@yahoo.in](business_email)
+- [queens@yahoo.in](business_email)
+- [blue@gmail.com](business_email)
+- [yellowin@yahoo.in](business_email)
+- [green@gmail.com](business_email)
+- [yellowgreen@gmail.com](business_email)
 - [maxmeier@firma.de](business_email)
 - [bot-fan@bots.com](business_email)
 - [maxmeier@firma.de](business_email)
 - [bot-fan@bots.com](business_email)
 - [my email is email@rasa.com](business_email)
 - [engineer](job_function)
+- I am a [developer](job_function)
+- I am a [marketting intern](job_function)
+- I am a [sales intern](job_function)
+- I am working as a [hr manager](job_function)
+- I work as a [SEO](job_function)
+- [marketting intern](job_function)
+- [sales intern](job_function)
+- I work as a [marketting manager](job_function)
+- I work as a [sales manager](job_function)
+- [marketting manager](job_function)
+- [sales manager](job_function)
+- [human resource manager](job_function)
+- I work as a [human resource manager](job_function)
+- I am a [brand manager](job_function)
+- I am a [CEO](job_function)
+- I work as a [CA](job_function)
+- I work as [CS](job_function)
+- [CA](job_function)
+- [CS](job_function)
 - [brand manager](job_function)
 - [marketing](job_function)
 - [sales manager](job_function)
@@ -235,11 +173,52 @@
 - [CTO](job_function)
 - [CEO](job_function)
 - [COO](job_function)
+- [Corey Scaffer](person_name)
+- [Krish Naik](person_name)
+- My name is [Krish Naik](person_name)
+- My name is [Corey Scaffer](person_name)
+- My name is [Bill Gates](person_name)
+- My name is [Warren Buffet](person_name)
+- [Warren Buffet](person_name)
+- [Bill Gates](person_name)
+- My name is [Elon Musk](person_name)
+- [Elon Musk](person_name)
+- My name is [Vighnesh](person_name)
+- [Vighnesh](person_name)
+- My name is [Ravi](person_name)
+- [Ravi](person_name)
+- My name is [Honey Singh](person_name)
+- [Honey Singh](person_name)
+- My name is [Salman Khan](person_name)
+- [Salman Khan](person_name)
+- My name is [Shah Rukh Khan](person_name)
+- My name is [Ajay Devagan](person_name)
+- [Sunny Deol](person_name)
+- My name is [Dharmendar](person_name)
+- My name is [Bobby Deol](person_name)
 - [John Doe](person_name)
 - [Jane Doe](person_name)
 - [Max Mustermann](person_name)
 - [Max Meier](person_name)
 - We plan to build a [sales bot](use_case) to increase our sales by 500%.
 - we plan to build a [sales bot](use_case) to increase our revenue by 100%.
+- We plan to build [sales bot](use_case)
+- We want to built a [sales bot](use_case)
+- We plan to construct a [sales bot](use_case)
+- Our plan is to build a [sales bot](use_case)
+- We plan to built a [chat bot](use_case)
+- We want to built a [chat bot](use_case)
+- Our use case is to build a [chat bot](use_case)
+- Our use case is to build an [AI assistant](use_case)
+- We plan to build an [AI assistant](use_case)
+- We are planning to build an [AI assistant]
+- Our plan is to build an [AI assistant](use_case)
+- Currently we plan to build a [conversational assistant](use_case)
+- We want to build a [virtual assistant](use_case)
+- We are making a [virtual assistant](use_case)
+- We are making a [virtual assistant](use_case)
+- We are planning to build a [Rasa Chatbot](use_case)
+- We plan to make a [Rasa Chatbot](use_case)
+- We plan to construct a [Rasa Chatbot](use_case)
 - a [insurance tool](use_case) that consults potential customers on the best life insurance to choose.
 - we're building a [conversational assistant](use_case) for our employees to book meeting rooms.
