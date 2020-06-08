@@ -5,6 +5,7 @@ intents:
   - faq
   - contact_sales
   - inform
+  - explain
 
 actions:
   - action_greet
@@ -39,6 +40,18 @@ responses:
     - text: Whats your name?
   utter_ask_use_case:
     - text: Whats your use case?
+  utter_explain_why_mail:
+    - text: We need your email for future communication.
+  utter_explain_why_budget:
+    - text: We need this information for future deal.
+  utter_explain_why_company:
+    - text:  We need this detail for future communication.
+  utter_explain_why_person_name:
+    - text: We need this information to cross verify the person with the company.
+  utter_explain_why_use_case:
+    - text: We need this information to understand your product.
+  utter_explain_why_job_function: 
+    - text: We need this information to understand your role.
     
 slots:
   company:
