@@ -18,6 +18,74 @@
     - form{"name": "sales_form"}
     - form{"name": null}
 
+## existing customer about product
+* about_product
+    - utter_ask_current_customer
+* yes_customer
+    - utter_ask_unique_code
+* unique_code
+    - action_get_unique_code
+
+## new customer, just sales
+* about_product
+    - utter_ask_current_customer
+* no_customer
+    - sales_form
+    - form{"name":"sales_form"}
+
+## new customer, explain person_name
+* about_product
+    - utter_ask_current_customer
+* no_customer
+    - sales_form
+    - form{"name":"sales_form"}
+    - form{"requested_slot":"person_name"}
+* explain
+    - utter_explain_why_person_name
+    - sales_form
+    - form{"name":null}
+
+
+## new customer, explain email
+* about_product
+    - utter_ask_current_customer
+* no_customer
+    - sales_form
+    - form{"name":"sales_form"}
+    - form{"requested_slot":"business_email"}
+* explain
+    - utter_explain_why_email
+    - sales_form
+    - form{"name":null}
+
+
+## new customer, explain city
+* about_product
+    - utter_ask_current_customer
+* no_customer
+    - sales_form
+    - form{"name":"sales_form"}
+    - form{"requested_slot":"city"}
+* explain
+    - utter_explain_why_city
+    - sales_form
+    - form{"name":null}
+
+
+## new customer, explain phone_number
+* about_product
+    - utter_ask_current_customer
+* no_customer
+    - sales_form
+    - form{"name":"sales_form"}
+    - form{"requested_slot":"phone_number"}
+* explain
+    - utter_explain_why_phone_number
+    - sales_form
+    - form{"name":null}
+
+
+
 ## just sales, continue
 * contact_sales
     - sales_form
@@ -27,63 +95,43 @@
     - sales_form
     - form{"name": null}
 
-## explain email
+## explain person name
 * contact_sales
     - sales_form
     - form{"name": "sales_form"}
-    - slot{"requested_slot": "business_email"}
-* explain
-    - utter_explain_why_mail
-    - sales_form
-    - form{"name":null}
-
-## explain budget
-* contact_sales
-    - sales_form
-    - form{"name":"sales_form"}
-    - slot{"requested_slot": "budget"}
-* explain
-    - utter_explain_why_budget
-    - sales_form
-    - form{"name":null}
-
-## explain company
-* contact_sales
-    - sales_form
-    - form{"name": "sales_form"}
-    - slot{"requested_slot": "company"}
-* explain
-    - utter_explain_why_company
-    - sales_form
-    - form{"name":null}
-
-## explain person_name
-* contact_sales
-    - sales_form
-    - form{"name" : "sales_form"}
     - slot{"requested_slot": "person_name"}
 * explain
     - utter_explain_why_person_name
     - sales_form
     - form{"name":null}
 
-## explain use_case
+## explain business email
 * contact_sales
     - sales_form
-    - form{"name" : "sales_form"}
-    - slot{"requested_slot": "use_case"}
+    - form{"name":"sales_form"}
+    - slot{"requested_slot": "business_email"}
 * explain
-    - utter_explain_why_use_case
+    - utter_explain_why_email
     - sales_form
     - form{"name":null}
 
-## explain job_function
+## explain city
 * contact_sales
     - sales_form
     - form{"name": "sales_form"}
-    - slot{"requested_slot": "job_function"}
-* explain  
-    - utter_explain_why_job_function
+    - slot{"requested_slot": "city"}
+* explain
+    - utter_explain_why_city
+    - sales_form
+    - form{"name":null}
+
+## explain phone_number
+* contact_sales
+    - sales_form
+    - form{"name" : "sales_form"}
+    - slot{"requested_slot": "phone_number"}
+* explain
+    - utter_explain_why_phone_number
     - sales_form
     - form{"name":null}
 
