@@ -22,12 +22,10 @@ class SalesForm(FormAction):
     @staticmethod
     def required_slots(tracker):
         return [
-            "job_function",
-            "use_case",
-            "budget",
             "person_name",
-            "company",
             "business_email",
+            "city",
+            "phone_number",
             ]
     def submit(
         self,
