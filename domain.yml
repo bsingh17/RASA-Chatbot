@@ -6,20 +6,24 @@ intents:
   - contact_sales
   - inform
   - explain
+  - about_product
+  - yes_customer
+  - no_customer
+  - unique_code
 
 actions:
+  - action_get_unique_code
   - action_greet
   - utter_noworries
   - utter_bye
   - respond_faq
   
 entities:
-  - company
-  - job_function
   - person_name
-  - budget
   - business_email
-  - use_case
+  - city
+  - phone_number
+  - unique_code
 
 responses:
   utter_noworries:
@@ -28,43 +32,37 @@ responses:
     - text: Hi
   utter_bye:
     - text: Bye!
-  utter_ask_business_email:
-    - text: What is your business email?
-  utter_ask_company:
-    - text: What company do you work for?
-  utter_ask_budget:
-    - text: What is your annual budget for conversational AI?
-  utter_ask_job_function:
-    - text: Whats your job?
+  utter_ask_current_customer:
+    - text: Are you an existing customer?
+  utter_ask_unique_code:
+    - text: Please enter your unique id.
   utter_ask_person_name:
     - text: Whats your name?
-  utter_ask_use_case:
-    - text: Whats your use case?
-  utter_explain_why_mail:
+  utter_ask_business_email:
+    - text: Enter your mail-id.
+  utter_ask_city:
+    - text: Enter your current city.
+  utter_ask_phone_number:
+    - text: Please enter your phone number.
+  utter_explain_why_email:
     - text: We need your email for future communication.
-  utter_explain_why_budget:
-    - text: We need this information for future deal.
-  utter_explain_why_company:
-    - text:  We need this detail for future communication.
+  utter_explain_why_phone_number:
+    - text: We need this information for future contact.
+  utter_explain_why_city:
+    - text:  We need to send your information to customer care team at your local place.
   utter_explain_why_person_name:
     - text: We need this information to cross verify the person with the company.
-  utter_explain_why_use_case:
-    - text: We need this information to understand your product.
-  utter_explain_why_job_function: 
-    - text: We need this information to understand your role.
     
 slots:
-  company:
-    type: unfeaturized
-  job_function:
-    type: unfeaturized
   person_name:
     type: unfeaturized
-  budget:
-    type: unfeaturized
+  city:
+    type: text
   business_email:
     type: unfeaturized
-  use_case:
+  phone_number:
+    type: unfeaturized
+  unique_code:
     type: unfeaturized
     
 forms:
