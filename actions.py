@@ -44,4 +44,13 @@ class ActionGreetUser(Action):
     def run(self,dispatcher,tracker,domain):
         dispatcher.utter_message(template="utter_greet")
         return [UserUtteranceReverted()]
+        
+class ActionGetUniqueCode(Action):
+    def name(self):
+        return "action_get_unique_code"
+    def run(self,dispatcher,tracker,domain):
+        email=tracker.get_slot("unique_code")
+        output= 'The customer care team will contact you soon on {}'.format(email)
+        dispatcher.utter_message(output)
+        return []
     
