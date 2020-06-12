@@ -8,6 +8,54 @@
 - hi again
 - hi folks
 
+## intent: about_product
+- please tell me about your product
+- please tell me your services 
+- please tell me about products you offer
+- please tell me about your new products
+- tell me about your new products
+- let me know about your new products
+- i want to ask about your new product
+- i want to enquire about your new product
+- i want to enquire about your services
+- I want to know your products
+- Tell me services you provide
+- Let me know the services you offer
+- Tell me about your new services
+- Explain me about your new services
+- Explain about your product
+- Explain about your products
+
+## intent:yes_customer
+- Yes i am your customer
+- yes i am a customer
+- yeah i am your customer
+- yeah
+- yeah i use your existing services
+- yup
+- yup i am your customer
+- yup i use your existing services
+- ya i use your existing services
+- ya i use your products
+- ya i am your customer
+- indeed
+
+## intent:no_customer
+- No i am not a customer
+- no i am not using your services
+- i am not using your services
+- na i am not using your product
+- no i am not your customer
+- na i am not your customer
+- naah i am not utilising your current service
+- naah i am not using your current product
+- naah
+- na
+- nope i am not using your services
+- nope i am currently not your customer
+- nope
+
+
 ## intent: explain
 - why
 - why is that
@@ -85,7 +133,7 @@
 - Please schedule a sales call
 - Sales
 - a call
-- a sales call with [Rufus Gardner](name) would be nice
+- a sales call with [Rufus Gardner](person_name) would be nice
 - are there different packages customers can book?
 - book
 - book a call
@@ -95,41 +143,39 @@
 - book an appointment
 - book call
 
+## intent: unique_code
+- My unique code is [5s88dg](unique_code)
+- My unique code is [5sd4c6](unique_code)
+- My unique code is [484dgg](unique_code)
+- My unique code is [df47gd](unique_code)
+- My unique code is [dfg486](unique_code)
+- My unique code is [5jg8hh](unique_code)
+- My unique code is [d64g65](unique_code)
+- My unique code is [wd68a7](unique_code)
+- My unique code is [8wa8e7](unique_code)
+- My unique code is [8jt787](unique_code)
+- My unique code is [02f1rg](unique_code)
+- My unique code is [tbb461](unique_code)
+- My unique code is [26hr5t](unique_code)
+- My unique code is [gvd146](unique_code)
+- My unique code is [526s1g](unique_code)
+- My unique code is [584841](unique_code)
+- My unique code is [xer6a1](unique_code)
+- My unique code is [15darE](unique_code)
+- My unique code is [62ace1](unique_code)
+- My unique code is [51reac](unique_code)
+- My unique code is [5sd488](unique_code)
+- My unique code is [xa4826](unique_code)
+- My unique code is [6DE4RE](unique_code)
+- My unique code is [18ar87](unique_code)
+- My unique code is [561787](unique_code)
+- My unique code is [f5cfgr](unique_code)
+- My unique code is [1cf887](unique_code)
+- My unique code is [s16e6w](unique_code)
+- My unique code is [817we1](unique_code)
+- My unique code is [1r7ew1](unique_code)
 
 ## intent:inform
-- [100k](budget)
-- [100k](budget)
-- [240k/year](budget)
-- [150,000 USD](budget)
-- [250K/year](budget)
-- [500$/year](budget)
-- [10000K](budget)
-- [10000000000K](budget)
-- [255K/year](budget)
-- [500,000 USD](budget)
-- [450,000 USD](budget)
-- [650,0000 USD](budget)
-- I work for [Rasa](company)
-- I work for [MissionEd](company)
-- I am working in [Decodr Technologies](company)
-- I am working for [TCS](company)
-- I work for [Google](company)
-- I work for [Zomato](company)
-- I work for [Swiggy](company)
-- I am working for [Google](company)
-- I am working for [Zomato](company)
-- I am working for [Swiggy](company)
-- I do work for [Rasa Technologies](company)
-- I do work for [NASA](company)
-- I do work for [ISRO](company)
-- I am working for [Beezenests](company)
-- I work for [Zensar Technologies](company)
-- The name of the company is [ACME](company)
-- company: [Rasa Technologies](company)
-- it's a small company from the US, the name is [Hooli](company)
-- it's a tech company, [Rasa](company)
-- [ACME](company)
-- [Rasa Technologies](company)
 - [king@gmail.com](business_email)
 - My email id is [queen@gmail.com](business_email)
 - Email id is [hello@yahoo.in](business_email)
@@ -146,33 +192,6 @@
 - [maxmeier@firma.de](business_email)
 - [bot-fan@bots.com](business_email)
 - [my email is email@rasa.com](business_email)
-- [engineer](job_function)
-- I am a [developer](job_function)
-- I am a [marketting intern](job_function)
-- I am a [sales intern](job_function)
-- I am working as a [hr manager](job_function)
-- I work as a [SEO](job_function)
-- [marketting intern](job_function)
-- [sales intern](job_function)
-- I work as a [marketting manager](job_function)
-- I work as a [sales manager](job_function)
-- [marketting manager](job_function)
-- [sales manager](job_function)
-- [human resource manager](job_function)
-- I work as a [human resource manager](job_function)
-- I am a [brand manager](job_function)
-- I am a [CEO](job_function)
-- I work as a [CA](job_function)
-- I work as [CS](job_function)
-- [CA](job_function)
-- [CS](job_function)
-- [brand manager](job_function)
-- [marketing](job_function)
-- [sales manager](job_function)
-- [growth manager](job_function)
-- [CTO](job_function)
-- [CEO](job_function)
-- [COO](job_function)
 - [Corey Scaffer](person_name)
 - [Krish Naik](person_name)
 - My name is [Krish Naik](person_name)
@@ -200,25 +219,51 @@
 - [Jane Doe](person_name)
 - [Max Mustermann](person_name)
 - [Max Meier](person_name)
-- We plan to build a [sales bot](use_case) to increase our sales by 500%.
-- we plan to build a [sales bot](use_case) to increase our revenue by 100%.
-- We plan to build [sales bot](use_case)
-- We want to built a [sales bot](use_case)
-- We plan to construct a [sales bot](use_case)
-- Our plan is to build a [sales bot](use_case)
-- We plan to built a [chat bot](use_case)
-- We want to built a [chat bot](use_case)
-- Our use case is to build a [chat bot](use_case)
-- Our use case is to build an [AI assistant](use_case)
-- We plan to build an [AI assistant](use_case)
-- We are planning to build an [AI assistant]
-- Our plan is to build an [AI assistant](use_case)
-- Currently we plan to build a [conversational assistant](use_case)
-- We want to build a [virtual assistant](use_case)
-- We are making a [virtual assistant](use_case)
-- We are making a [virtual assistant](use_case)
-- We are planning to build a [Rasa Chatbot](use_case)
-- We plan to make a [Rasa Chatbot](use_case)
-- We plan to construct a [Rasa Chatbot](use_case)
-- a [insurance tool](use_case) that consults potential customers on the best life insurance to choose.
-- we're building a [conversational assistant](use_case) for our employees to book meeting rooms.
+- My phone number is [7999545121](phone_number)
+- My phone number is [8464646451](phone_number)
+- My phone number is [8484645482](phone_number)
+- My phone number is [7984844848](phone_number)
+- My phone number is [7896421188](phone_number)
+- My phone number is [6486531484](phone_number)
+- My phone number is [4684615846](phone_number)
+- My phone number is [9446316548](phone_number)
+- My phone number is [4984415654](phone_number)
+- My phone number is [8444448489](phone_number)
+- My phone number is [8646153166](phone_number)
+- My phone number is [6456546656](phone_number)
+- My phone number is [6513215313](phone_number)
+- My phone number is [9864464645](phone_number)
+- My phone number is [6443216549](phone_number)
+- My phone number is [3210230648](phone_number)
+- My phone number is [8464535656](phone_number)
+- My phone number is [6546464646](phone_number)
+- My phone number is [5165168474](phone_number)
+- My phone number is [3151564486](phone_number)
+- My phone number is [5315648648](phone_number)
+- My phone number is [8448484897](phone_number)
+- My phone number is [8448788878](phone_number)
+- My phone number is [6135154845](phone_number)
+- My phone number is [6516468446](phone_number)
+- I live in [Indore](city)
+- I live in [Bengal](city)
+- I am from [Chennai](city)
+- I am from [Delhi](city)
+- I am from [Sikkim](city)
+- I live in [Bhopal](city)
+- I live in [Kashmir](city)
+- I live in [Srinagar](city)
+- I live in [Toronto](city)
+- i am from [Brampton](city)
+- i am from [South hall](city)
+- i am from [Ontario](city)
+- i am from [london](city)
+- i am from [Paris](city)
+- i am from [Kualalumpur]
+- i am from [Bali](city)
+- i am from [Karachi](city)
+- i am from [Wuhan](city)
+- I live in [Jakarta](city)
+- I live in [Dhaka](city)
+- I live in [Ujjain](city)
+- I live in [Jabalpur](city)
+- I live in [Kanpur](city)
