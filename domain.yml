@@ -10,6 +10,8 @@ intents:
   - yes_customer
   - no_customer
   - unique_code
+  - course_selection
+  - payment_confirmation
 
 actions:
   - action_get_unique_code
@@ -17,6 +19,8 @@ actions:
   - utter_noworries
   - utter_bye
   - respond_faq
+  - action_get_course
+  - action_payment_confirmed
   
 entities:
   - person_name
@@ -24,6 +28,8 @@ entities:
   - city
   - phone_number
   - unique_code
+  - field
+  - confirmation_code
 
 responses:
   utter_noworries:
@@ -57,12 +63,16 @@ slots:
   person_name:
     type: unfeaturized
   city:
-    type: text
+    type: unfeaturized
   business_email:
     type: unfeaturized
   phone_number:
     type: unfeaturized
   unique_code:
+    type: unfeaturized
+  field:
+    type: unfeaturized
+  confirmation_code:
     type: unfeaturized
     
 forms:
