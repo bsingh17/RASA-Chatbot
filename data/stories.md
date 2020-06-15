@@ -25,6 +25,10 @@
     - utter_ask_unique_code
 * unique_code
     - action_get_unique_code
+* course_selection
+    - action_get_course
+* payment_confirmation
+	- action_payment_confirmed
 
 ## new customer, just sales
 * about_product
@@ -32,6 +36,10 @@
 * no_customer
     - sales_form
     - form{"name":"sales_form"}
+* course_selection
+	- action_get_course
+* payment_confirmation
+	- action_payment_confirmed
 
 ## new customer, explain person_name
 * about_product
@@ -84,8 +92,15 @@
     - sales_form
     - form{"name":null}
 
-
-
+## contact sales and take course
+* contact_sales
+	- sales_form
+	- form{"name":"sales_form"}
+* course_selection
+	- action_get_course
+* payment_confirmation
+	- action_payment_confirmed
+	
 ## just sales, continue
 * contact_sales
     - sales_form
