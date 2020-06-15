@@ -267,3 +267,71 @@
 - I live in [Ujjain](city)
 - I live in [Jabalpur](city)
 - I live in [Kanpur](city)
+
+## intent:course_selection
+- I would like to take the [Machine Learning](domain) course.
+- i would like to take the [Machine Learning](domain) course.
+- I choose the [Machine Learning](field) course.
+- i would like to take the [cyber security](field) course.
+- I would like to take the [Cyber Security](field) course.
+- I am interested in learning [IOT](field).
+- I am interested in learning [Data Analytics](field)
+- i am interested in learning [NLP](field)
+- i would love to learn more about [Data Mining](field)
+- I would like to take a course in [Cloud Computing](field)
+- i would like to take a course in [Big Data](field)
+- I would like to take a course in [Mathematics](field)
+- i would like to take the [Statistics](field) course.
+- i would like to take the [Deep Learning](field)
+- i would like to take the [Data Science](field) course.
+- i would like to take the [Computer Vision](field) course
+- i would like to take the [IOT](field) course.
+- i would like to take the [Data Analytics](field) course
+- i would like to take the [NLP](field) course.
+- i would like to take the [Data Mining](field) course
+- I would like to take the [Data Visualization](field) course.
+- I would like to take the [Data Wrangling](field) course.
+- I am interested in learning [Data Visualization](field)
+- I am interested in learning [Cyber Security](field)
+- I am interested in learning [Data Wrangling](field)
+- I am interested in learning [Statistics](field)
+- I am interested in learning [Data Science](field)
+- I am interested in learning [Cloud Computing](field)
+- I am interested in learning [Big Data Analytics](field)
+- I am interested in learning [Mathematics](field)
+- I am interested in learning [Computer Vision](field)
+- I am interested in learning [NLP](field)
+
+## intent:payment_confirmation
+- Confirmation code is [imaj984fg54](confirmation_code)
+- Confirmation code is [jcbb564csab](confirmation_code)
+- Confirmation code is [hcbahvb6464](confirmation_code)
+- Confirmation code is [d684864adnn](confirmation_code)
+- Confirmation code is [68dnkfrnkj6](confirmation_code)
+- Confirmation code is [nfn5644fkja](confirmation_code)
+- Confirmation code is [jdiea64864d](confirmation_code)
+- Confirmation code is [knlfarn6888](confirmation_code)
+- Confirmation code is [fakln+989fe](confirmation_code)
+- Confirmation code is [d4f5a54af68](confirmation_code)
+- Confirmation code is [8w4S4684dwe](confirmation_code)
+- Confirmation code is [4fe684a648s](confirmation_code)
+- Confirmation code is [fsz8r44zfdf](confirmation_code)
+- Confirmation code is [zfs94gh7hh9](confirmation_code)
+- Confirmation code is [w4ae68s87nj](confirmation_code)
+- Confirmation code is [j4k4i68yuoo](confirmation_code)
+- Confirmation code is [k87ihukh877](confirmation_code)
+- Confirmation code is [izc684Cz87c](confirmation_code)
+- Confirmation code is [4sf44vsdafg](confirmation_code)
+- Confirmation code is [s9adfe9grst](confirmation_code)
+- Confirmation code is [95g5sd97dg7](confirmation_code)
+- Confirmation code is [yu84ikf86hj](confirmation_code)
+- Confirmation code is [h5486j486g8](confirmation_code)
+- Confirmation code is [jdasf644877](confirmation_code)
+- Confirmation code is [gthykm78776](confirmation_code)
+- Confirmation code is [6g5x6f4h64n](confirmation_code)
+- Confirmation code is [68s46awd468](confirmation_code)
+- Confirmation code is [wadfer7876f](confirmation_code)
+- Confirmation code is [ad4fes6rg84](confirmation_code)
+- Confirmation code is [wa6d46fesrg](confirmation_code)
+- Confirmation code is [wdafe8sgr8g](confirmation_code)
+
