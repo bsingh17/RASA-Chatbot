@@ -33,7 +33,7 @@ class SalesForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict]:
-        dispatcher.utter_message("Thanks for getting in touch, we’ll contact you soon")
+        dispatcher.utter_message("Which course would you like to take?")
         return []
 
 class ActionGreetUser(Action):
@@ -48,7 +48,24 @@ class ActionGetUniqueCode(Action):
         return "action_get_unique_code"
     def run(self,dispatcher,tracker,domain):
         email=tracker.get_slot("unique_code")
-        output= 'The customer care team will contact you soon on {}'.format(email)
+        output= 'Which course would you like to take?'.format(email)
+        dispatcher.utter_message(output)
+        return []
+        
+class ActionGetCourse(Action):
+    def name(self):
+        return "action_get_course"
+    def run(self,dispatcher,tracker,domain):
+        
+        output= 'Pay for the selected course and enter the payment confirmation code to get the course confirmation email'
         dispatcher.utter_message(output)
         return []
     
+class ActionPaymentConfirmed(Action):
+    def name(self):
+        return "action_payment_confirmed"
+    def run(self,dispatcher,tracker,domain):
+        
+        output= 'Thanks For taking the course. You will be getting dashboard access through mail.'
+        dispatcher.utter_message(output)
+        return []
